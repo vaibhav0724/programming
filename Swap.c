@@ -2,13 +2,22 @@
 #include<conio.h>
 Void main()
 {
-int a,b;
+int i,j;
 clrscr();
-printf("enter the value of a and b");
-Scanf("%d%d",&a,&b);
-a=a+b;
-b=a-b;
-a=a-b;
-printf("after swapping the value of a&b is %d %d",a,b);
+for(i=1;i<=5;i++)
+{
+for(j=1;j<=5;j++)
+{
+if(j<=i)
+{
+Printf("01");
+}
+else
+{
+Printf(" ");
+}
+}
+Printf("\n");
+}
 getch();
 }
